@@ -1,14 +1,14 @@
 ﻿namespace Colloquim3
 {
-    partial class Form1
+    partial class Form3
     {
         /// <summary>
-        ///  Required designer variable.
+        /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        ///  Clean up any resources being used.
+        /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
@@ -23,12 +23,12 @@
         #region Windows Form Designer generated code
 
         /// <summary>
-        ///  Required method for Designer support - do not modify
-        ///  the contents of this method with the code editor.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
             button1 = new Button();
             password_input = new TextBox();
             email_input = new TextBox();
@@ -40,13 +40,13 @@
             // 
             // button1
             // 
-            button1.BackColor = Color.SeaShell;
+            button1.BackColor = Color.Beige;
             button1.ForeColor = Color.Black;
             button1.Location = new Point(250, 277);
             button1.Name = "button1";
             button1.Size = new Size(150, 40);
             button1.TabIndex = 0;
-            button1.Text = "Вход";
+            button1.Text = "Завершить";
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
@@ -86,13 +86,13 @@
             // 
             // button2
             // 
-            button2.BackColor = Color.SeaShell;
+            button2.BackColor = Color.Coral;
             button2.ForeColor = Color.Black;
             button2.Location = new Point(400, 277);
             button2.Name = "button2";
             button2.Size = new Size(150, 40);
             button2.TabIndex = 0;
-            button2.Text = "Регистрация";
+            button2.Text = "Отменить";
             button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
             // 
@@ -100,13 +100,13 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Times New Roman", 36F, FontStyle.Italic, GraphicsUnit.Point);
-            label3.Location = new Point(183, 9);
+            label3.Location = new Point(219, 9);
             label3.Name = "label3";
-            label3.Size = new Size(435, 68);
+            label3.Size = new Size(362, 68);
             label3.TabIndex = 5;
-            label3.Text = "Магазин мебели";
+            label3.Text = "Регистрация";
             // 
-            // Form1
+            // Form3
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -120,10 +120,9 @@
             Controls.Add(password_input);
             Controls.Add(button2);
             Controls.Add(button1);
-            Name = "Form1";
+            Name = "Form3";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
-            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }

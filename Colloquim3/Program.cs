@@ -10,20 +10,20 @@
         {
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
-
+            /*using (ApplicationContext db = new ApplicationContext())
+            {
+                Bed bed1 = new Bed { Name = "Кровать1", Description = "Кровать сделан из дерева", Price = 200, STATUS ="SOLD" };
+                Bed bed2 = new Bed { Name = "Кровать2", Description = "Кровать сделан из железа", Price = 100, STATUS = "AVAILABLE" };
+                // добавляем их в бд    
+                db.Beds.AddRange(bed1, bed2);
+                db.SaveChanges();
+            }*/
 
             ApplicationConfiguration.Initialize();
             Application.Run(new Form1());
 
-            /*using (ApplicationContext db = new ApplicationContext())
-            {
-                User user1 = new User { Name = "Tom", Age = 33 };
-                User user2 = new User { Name = "Alice", Age = 26 };
-                // добавляем их в бд    
-                db.Users.AddRange(user1, user2);
-                db.SaveChanges();
-            }
-            // получение данных
+            
+            /*// получение данных
             using (ApplicationContext db = new ApplicationContext())
             {
                 // получаем объекты из бд и выводим на консоль
